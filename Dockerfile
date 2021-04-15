@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.13.5
 MAINTAINER lolgast <lolgast@live.nl>
 
 # Install samba
