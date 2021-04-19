@@ -1,4 +1,4 @@
-Copied to files from dperson/samba. His x64 images isn't updated for months at the moment, which, with all Samba security fixes going on wans't giving me the best of feelings. So here is an updates one, with one major change. This image ONLY supports SMB3 and higher.
+Copied to files from dperson/samba. His x64 image isn't updated for months at the moment, which, with all Samba security fixes going on wasn't giving me the best of feelings. So here is an updates one, with one major change. This image ONLY supports SMB3 and higher.
 
 Base: alpine:latest \
 Samba: 4.13.7-r0
