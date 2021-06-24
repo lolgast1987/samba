@@ -1,7 +1,7 @@
 Copied to files from dperson/samba. His x64 image isn't updated for months at the moment, which, with all Samba security fixes going on wasn't giving me the best of feelings. So here is an updates one, with one major change. This image ONLY supports SMB3 and higher.
 
 Base: alpine:latest \
-Samba: 4.13.7-r0
+Samba: 4.14.5-r0
 
 Uses the same environment variables as the image made by dperson. In fact, you can just swap in this image and everything still works. Since this image only supports SMB3+, the SMB environment variable is stripped.
 
