@@ -2,8 +2,7 @@ FROM alpine:latest
 MAINTAINER lolgast <lolgast@live.nl>
 
 # Install samba
-RUN apk --no-cache --no-progress upgrade && \
-    apk --no-cache --no-progress add bash samba shadow tini tzdata && \
+RUN apk --no-cache --no-progress add bash samba shadow tini tzdata && \
     addgroup -S smb && \
     adduser -S -D -H -h /tmp -s /sbin/nologin -G smb -g 'Samba User' smbuser &&\
     file="/etc/samba/smb.conf" && \
